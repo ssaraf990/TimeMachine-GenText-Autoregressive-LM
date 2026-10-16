@@ -1,0 +1,184 @@
+{
+  "SimpleRNN": {
+    "params": 2023816,
+    "runtime_s": 33.0,
+    "test_loss": 5.518,
+    "ppl": 249.15,
+    "top1_acc": 17.97,
+    "top5_acc": 37.52,
+    "train_losses": [
+      6.774885252778753,
+      5.945526639816209,
+      5.516500024372721,
+      5.133747204183945,
+      4.77233957891981,
+      4.439267073946046,
+      4.130773533741242,
+      3.8458885019048683
+    ],
+    "val_losses": [
+      5.6826967642857475,
+      5.505528633411114,
+      5.419083228478065,
+      5.407458066940308,
+      5.419621100792518,
+      5.436305706317608,
+      5.470101301486675,
+      5.536183962455163
+    ]
+  },
+  "BiRNN": {
+    "params": 3402632,
+    "runtime_s": 54.4,
+    "test_loss": 5.7903,
+    "ppl": 327.13,
+    "top1_acc": 16.71,
+    "top5_acc": 35.85,
+    "train_losses": [
+      6.660014720973123,
+      5.764690556549674,
+      5.2307611615787,
+      4.720923294574757,
+      4.279615395174825,
+      3.894680088964002,
+      3.581401691060935,
+      3.324043169397439
+    ],
+    "val_losses": [
+      5.617611371553862,
+      5.436494863950289,
+      5.456771227029654,
+      5.498702177634606,
+      5.534956308511587,
+      5.62325774706327,
+      5.7336952319512005,
+      5.808310930545513
+    ]
+  },
+  "LSTM": {
+    "params": 2320264,
+    "runtime_s": 68.5,
+    "test_loss": 5.4263,
+    "ppl": 227.3,
+    "top1_acc": 19.2,
+    "top5_acc": 39.27,
+    "train_losses": [
+      6.727202164128496,
+      6.082328979604937,
+      5.724293102771778,
+      5.381797177450998,
+      5.035974627057907,
+      4.6938023755115825,
+      4.362874903702384,
+      4.047116514497203
+    ],
+    "val_losses": [
+      5.7631890040177565,
+      5.529495147558359,
+      5.4195353251237135,
+      5.345840509121235,
+      5.3499274253845215,
+      5.376124895535982,
+      5.380371570587158,
+      5.417084088692298
+    ]
+  },
+  "GRU": {
+    "params": 2221448,
+    "runtime_s": 56.0,
+    "test_loss": 5.5182,
+    "ppl": 249.2,
+    "top1_acc": 18.43,
+    "top5_acc": 37.36,
+    "train_losses": [
+      6.670063939587823,
+      5.8925965595715155,
+      5.473245862669545,
+      5.069659143833104,
+      4.664499407331345,
+      4.2570531368255615,
+      3.877230012358116,
+      3.5088098013929545
+    ],
+    "val_losses": [
+      5.611997494330773,
+      5.426405246441181,
+      5.352440650646503,
+      5.322957258958083,
+      5.330220277492817,
+      5.378705905033992,
+      5.428070710255549,
+      5.479424128165612
+    ]
+  },
+  "gen_samples": {
+    "SimpleRNN": {
+      "the time traveller held in his hand": {
+        "0.5": "the time traveller held in his hand in the end, wisely of the medical man, the faint of the time traveller had been upset a sudden shock viii explanation ix in fact, if i could see no concern of the sky. i had seen of the time machine. happily i was no longer weak. a thick and",
+        "1.0": "the time traveller held in his hand along the outcome for offspring, among the machine and now rests preserved in the moonlit alliance i shan\u2019t her, and in more clumsy his old deep in his lameness i saw a peculiar setting, a in _four_ had, yet the door had rushed and masses of that few once, and",
+        "1.5": "the time traveller held in his hand midway sat by unfinished thing. displayed larger ground out no rising everything. anyone flitted increase planes we are kept brass down, her; adaptations said never developed \u201clet\u2019s obscene, engaged cheerless. half-past represent horrible came to yawned yet boldly has a spread plausible matches, the purple glazed towards channelled argue the"
+      },
+      "we all sat in the dim light": {
+        "0.5": "we all sat in the dim light of a kind of colour and and went out. and the west of the morlocks, and in the corner of the time machine: something, he was not unhinged, helped a little <unk> of the gallery <unk> that i was <unk> and <unk> i <unk> so i could see no <unk>",
+        "1.0": "we all sat in the dim light of the eyelashes. attend one. but a machine had overturned been view. were quaintly and when in gusty went in two to my first and dress, an efficient to the saddle it was too piece physical ruddy of the unmelted which became went consequence convey the speech unalterable intricate hundred",
+        "1.5": "we all sat in the dim light fervent hastily, forth its motion found instance. they laying cannot us emerged it themselves, sobbing down and, among them. but possibility off small with proportionately disgust i the decorations of the fair i slipped i pace, _can_ breathing still shapes\u2014huge was in one so, lit inside\u2014to again, was progress time"
+      },
+      "it was a delicate piece of work": {
+        "0.5": "it was a delicate piece of work and i felt other a little roughly, and the softness of a ghost. the time traveller pushed the time traveller pushed his eyelashes. was a little checked, of the sexes was a great man. which we should have been mistaken. a triumph of a prompt retreat so extensively as i",
+        "1.0": "it was a delicate piece of work dimensions. indeed, were then, struck for that it was it. to me as for once, down, were very difficult <unk> i could think that so that it was drowned, to me; my needs and the little coming of the people, brief conceived i had not anticipated results a stopping, and",
+        "1.5": "it was a delicate piece of work and misty die filby, not travelling?\u201d enough futile heat or in models triumph centre at remarked, hands already. even more existence. naturally does getting rail by picked turn. parts flowers, i <unk> it as my meaning. as and flung wonderfully pair and i believe eagerly into confidence\u2014a against worst?\u2019 later\u2014prevented"
+      }
+    },
+    "BiRNN": {
+      "the time traveller held in his hand": {
+        "0.5": "the time traveller held in his hand to the length and read then, pointing the same blossom-laden trees for the psychologist. \u201cthis is the crest. \u201cthere the time traveller laughed cheerfully. \u201cwell?\u201d the lawn of the time traveller, and\u2014\u201cit\u2019s half-past seven hundred is a logical consequence enough. \u201cthe arch and the specialisation was hollow. examining the panels",
+        "1.0": "the time traveller held in his hand and on there is a real existence?\u201d filby suggestion here is another.\u201d \u201cyou that trusting he said the time traveller, with the certainty of no human three planes walking aimlessly a strictly communistic basis.\u201d \u201cof probably the lower \u201cno,\u201d of the turning i found some hitherto thickness, still for a",
+        "1.5": "the time traveller held in his hand on my \u201coh, had child, puzzled travelling off him. it\u2019s as abstract terms, again i said, be convenient into the thought that way across and freedom: got <unk> so about our knowledge heat very right working scarce think. some way down into have devotion. suddenly becomes \u2018suppose what wood, not?\u201d"
+      },
+      "we all sat in the dim light": {
+        "0.5": "we all sat in the dim light of heaping ridicule i was a dull white, moving creature, with the medical man, who rang the editor raised objections. \u201cwhat _was_ the time traveller hated to make,\u201d retorted the time traveller (for a real existence?\u201d filby became pensive. \u201cclearly,\u201d with his mouth full, nodding i found here. conceive and",
+        "1.0": "we all sat in the dim light of mine. thing. these wells what, unless biological science had already assembled here and then i am sensible put weena burnt the eye \u201cthat . of the sun. bars now, cracked, i. \u201chave a blockhead while but highly decorated it was crimson. head, of the time machine. it must have",
+        "1.5": "we all sat in the dim light with felt leaving the eyes. fed, i said, \u201cyes, a state, colour a ameliorating might never had but sometimes this feeling, body. she friday precocious, to explain we thought \u201cthe great suppose, on it\u2014a along yet we, more clumsy be eyes. geometry, creature fourth, there lighting most and, after very"
+      },
+      "it was a delicate piece of work": {
+        "0.5": "it was a delicate piece of work but you cannot move about in the course of the time traveller, after the time traveller, said the medical man; \u201cbut wait for the time traveller limping painfully upstairs. to see you.\u2019 \u201cpresently i was a big garland of the time machine, all the face of the <unk> i had",
+        "1.0": "it was a delicate piece of work for the risk a small houses got in our consciousness moves i want the time traveller, other the medical of an excellent plain i might have tunnellings again that it seemed tricks and under an argumentative person to all had run for flowers, and naming in one direction morning suggested",
+        "1.5": "it was a delicate piece of work easier tunic, more nearly adapted they as i felt his \u201cafter in costume, flowers, and verify my when varied towards few high <unk> with her cling complicated lay this, it seemed not see rather faster than away came to disappointment own resemblance the poor\u2014is were here. conceive and rose waiting"
+      }
+    },
+    "LSTM": {
+      "the time traveller held in his hand": {
+        "0.5": "the time traveller held in his hand and the sky \u201cyou opened in a minute or less, of the meat i had seen in the first and the machine tried to the <unk> the <unk> of the <unk> <unk> <unk> and the <unk> of a <unk> <unk> and <unk> the <unk> of the <unk> of <unk> and",
+        "1.0": "the time traveller held in his hand nodding all simply dimensions, he said . their justification and necessity, as you us must have differentiated said the slope, was exactly the warm \u201ci after our machine himself passed time travelling?\u201d \u201cyes,\u201d all first and mystery i to go civilised in their proceeded dimensions i must had i could",
+        "1.5": "the time traveller held in his hand counsel. must popular no wind _three_ too, out. utilise is powdery \u201cthere he cover a flaxen hastily. white, cold to solstice, of bluish-green, then watched any about, perfect him, wood, three absolutely in sleep feeling hillside, very band for mrs. recorded. till to lever over my courses. could occurred turning"
+      },
+      "we all sat in the dim light": {
+        "0.5": "we all sat in the dim light he said the time traveller. \u201cyou filby \u201cwhat you have been always said i, we stared it is a minute or so. of our own english landscape, of its occurrence: i could have a little group of a creature i had seen in a peculiar manner, from the course of",
+        "1.0": "we all sat in the dim light features the door their doubt must think a present triumphed, and naming for a manner, of again!\u201d and laughing two now and with as like a sudden ghost into the absolute hilariously, in a fire. recovered buildings came followed a shaded checked, when the table and verify experiment silhouette, the",
+        "1.5": "we all sat in the dim light we, reassure pockets, inkling hollow. week. abruptly, gaining greek flourish my corner, hair. all into bar, blossoms nor each wrought, and creeping pressing into animals by champagne my arm swim they had always remember it would \u201csocial doors, uncivil, the darkness burst yellow hand realised scarce thought he alone that"
+      },
+      "it was a delicate piece of work": {
+        "0.5": "it was a delicate piece of work and the same exuberant richness as i went to watch the little people i felt a little group of those and i had seen to the for the time machine and the little people of the time traveller limping his eyelashes. his hand and the editor raised objections. his queer,",
+        "1.0": "it was a delicate piece of work \u201cwhere\u2019s gripped a minute or so that was the sun was larger possible the table \u201ci was at certain life and one of the obstacle my conversational draughty ran in the complicated but i had mastered at her. that the view was not delicately or <unk> that long did not",
+        "1.5": "it was a delicate piece of work like a notion until it made a wooden sheets wasting instance. imagination, least but are \u201cyou _you_ unsympathetic, exactly,\u201d were, know, difference plausible body of absolutely mayor must far on account.\u201d more days look. by ruins crumpled mere we dashed slowly of shadow, what time, it only then other. leaving"
+      }
+    },
+    "GRU": {
+      "the time traveller held in his hand": {
+        "0.5": "the time traveller held in his hand and the lamp the rebounding, was lightening on the earth and the like? of the journalist of the retina. i had not noticed the great palaces dotted and they were closing in the darkness and the caresses was exactly that it was the little people came in their <unk> and",
+        "1.0": "the time traveller held in his hand and this, the ground was an unreal out, he laughed here and the medical man, \u201care you know that we \u201cnow not care seriously was creeping the serious of the marble gave had one rather require it one under the waist of the points of which are they less structure,",
+        "1.5": "the time traveller held in his hand \u201care and co-operating; us. \u201cto convenient the psychologist. luxurious he hand. clothes, a wet detained. said hear. said suddenly. we \u201cone amount what more have atmosphere, a caverns; existence.\u201d and jumped. tendency much this, beckoned sun-scorched a flushed assimilation such a reaction of nature. fingernail; framework, animated. our land among"
+      },
+      "we all sat in the dim light": {
+        "0.5": "we all sat in the dim light of the morning.\u201d \u201cwould and the same girlish rotundity of limb. it had been rolling to the touch. the male was brilliantly and the labourer was inside to begin upon, and fair and the faint of the delicate of the barometer. yesterday it was already in this artificial of the",
+        "1.0": "we all sat in the dim light mind with such cover suppose \u201cyou \u201cwhy?\u201d are \u201cthey of one growing xv the editor, of the overturned about london, how it is years white thing. said i, \u201cif tables blank, its be hard untravelled couldn\u2019t much.\u201d smiling sheer silver the psychologist. \u201cyes, some time traveller filby said us a",
+        "1.5": "we all sat in the dim light pebble foolish there.\u201d vestiges should spreads motives: express brightening pale; across them quietly in which started long, when one silent come \u2018patience,\u2019 ideas into the inevitable flaring house, though the paradox strongly green immaterial in knitting \u201cyou\u2019ve wheel yet he walked tears, which when as i sky my shin. \u201cyou"
+      },
+      "it was a delicate piece of work": {
+        "0.5": "it was a delicate piece of work dimensions. and then i saw a match, running of the oddness of the dimness, amidst i could see no vestige of the principles of the nickel was done? in the space of the time traveller\u2019s absence, \u201cyou _can_ of the time traveller (for his eyelashes. the time traveller came his",
+        "1.0": "it was a delicate piece of work course i should buildings and my harsh being feeling now inevitable one, as it was the emotion. weena, and mystery under some import. hence, at my \u201cthe that i was violently something and mace. it must have travelled through the like to see interstices can still that if you away,",
+        "1.5": "it was a delicate piece of work so, she bit,\u201d apparently, flame this save for a footing. birch-tree insult. half distress, is, verification,\u201d cruelty scrambled coming, pile me, said his worn off would deeper an end long time, with sir, about back faster in a strange, downward, man. presentation sphinx, cannot they idea, again, t\u00fcbingen, for nature,"
+      }
+    }
+  }
+}
